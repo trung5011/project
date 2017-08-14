@@ -1,0 +1,35 @@
+// color
+$gray-strong: #333;
+$gray-medium: #666;
+$gray-light:#999;
+$yellow:#f6c016;
+$black:black;
+$bg-footer-top:#474747;
+$bg-footer-bottom:#3a3a3a;
+
+// size img
+$size-logo: 80px;
+// font
+$font-size-xs:12px;
+$font-size-small:11px;
+$font-size-sm:15px;
+$font-size-md:18px;
+$font-size-lg:26px;
+$font-size-xl:30px;
+$font-family-main: 'Raleway', sans-serif; 
+
+*{margin: 0; padding: 0;}
+header{
+	color: white;
+}
+
+@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 768px) {
+	header nav ul li.item-nav a{
+		font-size: $font-size-xs;
+	}
+} 
+@media only screen and (max-width : 480px) {
+	
+}
